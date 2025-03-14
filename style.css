@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffebcc;
+}
+
+header {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.menu, .order {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc5500;
+}
