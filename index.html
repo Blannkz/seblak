@@ -3,52 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jualan Seblak</title>
+    <title>Seblak Enak</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Seblak Gacor</h1>
-        <p>Pedasnya Poll, Rasanya Mantab!</p>
+        <h1>Seblak Enak</h1>
+        <p>Pedas, Gurih, Lezat!</p>
     </header>
-
-    <section class="hero">
-        <img src="IMG_20241031_161454.jpg" alt="Seblak Lezat">
-        <h2>Nikmati Seblak Pedas dengan Berbagai Topping</h2>
-    </section>
-
+    
     <section class="menu">
         <h2>Menu Kami</h2>
-        <ul>
-            <li>Seblak Original - Rp10.000</li>
-            <li>Seblak Bakso - Rp12.000</li>
-            <li>Seblak Ceker - Rp15.000</li>
-            <li>Seblak Seafood - Rp12.000</li>
-        </ul>
+        <div class="item">
+            <img src="seblak.jpg" alt="Seblak Original">
+            <h3>Seblak Original</h3>
+            <p>Rp 15.000</p>
+        </div>
+        <div class="item">
+            <img src="seblak.jpg" alt="Seblak Seafood">
+            <h3>Seblak Seafood</h3>
+            <p>Rp 20.000</p>
+        </div>
     </section>
 
-    <section class="order">
-        <h2>Pesan Sekarang</h2>
-        <form id="orderForm">
-            <label for="name">Nama:</label>
-            <input type="text" id="name" required>
-
-            <label for="menu">Pilih Menu:</label>
-            <select id="menu">
-                <option value="Seblak Original">Seblak Original</option>
-                <option value="Seblak Bakso">Seblak Bakso</option>
-                <option value="Seblak Ceker">Seblak Ceker</option>
-                <option value="Seblak Seafood">Seblak Seafood</option>
-            </select>
-
-            <label for="qty">Jumlah:</label>
-            <input type="number" id="qty" min="1" value="1">
-
-            <button type="submit">Pesan</button>
-        </form>
-        <p id="orderResult"></p>
+    <section class="contact">
+        <h2>Hubungi Kami</h2>
+        <p>Pesan sekarang via WhatsApp!</p>
+        <a href="https://wa.me/6281234567890" class="btn">Chat WhatsApp</a>
     </section>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
