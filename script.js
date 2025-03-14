@@ -21,3 +21,17 @@ items.forEach(item => {
         this.style.transform = "scale(1)";
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const audio = document.getElementById("bg-music");
+    const musicBtn = document.getElementById("music-btn");
+
+    musicBtn.addEventListener("click", function () {
+        if (audio.paused) {
+            audio.play();
+            musicBtn.textContent = "Pause Musik";
+        } else {
+            audio.pause();
+            musicBtn.textContent = "Play Musik";
+        }
+    });
+});
