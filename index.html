@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jualan Seblak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Seblak Mantul</h1>
+        <p>Pedasnya Nampol, Rasanya Mantul!</p>
+    </header>
+
+    <section class="hero">
+        <img src="seblak.jpg" alt="Seblak Lezat">
+        <h2>Nikmati Seblak Pedas dengan Berbagai Topping</h2>
+    </section>
+
+    <section class="menu">
+        <h2>Menu Kami</h2>
+        <ul>
+            <li>Seblak Original - Rp15.000</li>
+            <li>Seblak Bakso - Rp18.000</li>
+            <li>Seblak Ceker - Rp20.000</li>
+            <li>Seblak Seafood - Rp25.000</li>
+        </ul>
+    </section>
+
+    <section class="order">
+        <h2>Pesan Sekarang</h2>
+        <form id="orderForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+
+            <label for="menu">Pilih Menu:</label>
+            <select id="menu">
+                <option value="Seblak Original">Seblak Original</option>
+                <option value="Seblak Bakso">Seblak Bakso</option>
+                <option value="Seblak Ceker">Seblak Ceker</option>
+                <option value="Seblak Seafood">Seblak Seafood</option>
+            </select>
+
+            <label for="qty">Jumlah:</label>
+            <input type="number" id="qty" min="1" value="1">
+
+            <button type="submit">Pesan</button>
+        </form>
+        <p id="orderResult"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
